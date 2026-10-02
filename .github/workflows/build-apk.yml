@@ -33,7 +33,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir -p build-src
-          unzip -o AllnetWorkAndroid_v4_Firebase.zip -d build-src
+          unzip -o AllnetWorkAndroid_v6_Audited_Fixed.zip -d build-src
 
       - name: Build APK
         run: |
